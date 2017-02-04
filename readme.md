@@ -1,1 +1,1 @@
-# readme
+# Ciccone's class
