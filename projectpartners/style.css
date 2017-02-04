@@ -1,0 +1,490 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+section, header, aside, footer * {
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #333 url('img/tweed.png');  /*background principal*/
+	margin:0;
+	padding:0;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 1.0em;
+	color: #ccc;
+	font-weight: 300;
+	min-width: 450px;
+}
+
+p {
+	line-height: 1.9em;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #587193;
+	border-bottom: 1px solid #587193;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom-color: #fff;
+	color: #fff;
+}
+
+a:focus {
+	outline: none;
+}
+
+
+a.button { 
+    background-color: #385C67;  /*button under article*/
+    color: #D2D9E5;
+    display: inline-block;
+    border-bottom:none;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+a.button:hover {
+	background-color: #E24830;
+}
+
+a.button-reversed { 
+    background-color: #385C67;
+    background: linear-gradient(#C3C3C5, #9EA0A5);
+	color: #666;
+}
+
+a.button-reversed:hover {
+	background-color: #9EA0A5;
+}
+
+fieldset {
+	display: block;
+	border: none;
+	border-top: 1px solid #0D2F3F;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 0.9em;
+	padding-right: 10px;
+	color: #ccc;
+}
+
+fieldset form {
+	padding-top: 15px;
+}
+
+fieldset p label {
+	float: left;
+	width: 150px;
+}
+
+form input, form select, form textarea {
+	padding: 5px;
+	color: #333333;
+	border: 1px solid #0D2F3F;
+	border-right:1px solid #9CB4BD;
+	border-bottom:1px solid #9CB4BD;
+	background-color:#fff;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-size: 0.9em;
+}
+
+form input.formbutton {
+	border: none;
+	background: #9CB4BD;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 6px 10px;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	width: auto;
+	overflow: visible;
+}
+
+form.searchform input {
+	font-size: 0.9em;
+    padding: 6px;
+}
+
+form.searchform p {
+	margin: 5px 0;
+}
+
+
+span.required {
+	color: #ff0000;
+}
+
+.placeholder {
+	
+	font-size: 25px;
+}
+h1 {
+	color: #ddd;
+	font-size: 2.7em;
+	font-weight: 200;
+}
+
+h2 {
+	color: #E24830;
+	font-size: 2.2em;
+	letter-spacing: -1px;
+	padding: 0 0 5px;
+	font-weight: bold;
+	margin: 0;
+}
+
+h3 {
+	color: #C3C3C5;
+	font-size: 1.9em;
+	margin-bottom: 10px;
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+
+h4 {
+    color: #3B4C62;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+h5 {
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	color: #eee;
+}
+
+ul, ol {
+	margin: 0 0 35px 35px;
+}
+
+li {
+	padding-bottom: 5px;
+}
+
+li ol, li ul {
+	font-size: 1.0em;
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+
+.width, #container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+#container {
+	padding: 20px 10px;
+	background-image: url(img/gray_sand.png);
+	
+	-webkit-box-shadow: 6px 6px 86px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 86px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 86px 0px rgba(0,0,0,0.75);
+}
+
+header {
+	background-image: url(img/header.jpg);
+	background-size: cover;
+	
+	
+	opacity: 0.95; -webkit-filter: brightness(150%);
+	height: 150px;
+	padding: 20px;
+	margin: 0 auto;
+    text-align:center;
+	
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+}
+
+header h1 a, header h1 a:hover {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 200;
+    border-bottom: none;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 0px #000;
+
+}
+
+
+nav {
+	width: 100%;
+	margin-top: 125px;
+	margin-left: -40px;
+}
+
+nav ul {
+	float: left;
+	line-height: 2em;
+	list-style: none;
+	padding-left: 0px;
+}
+
+nav ul li {
+	display: inline;
+	padding: 0px 1px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	text-align: center;  
+}
+
+
+nav ul li a {
+    color: #ddd;
+    font-size: 1.0em;
+	font-weight: bold;
+    letter-spacing: 0;
+	padding: 10px 15px;
+	
+	background-color: #385C67;  /*color botom like booklist*/
+    border-bottom: 1px;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+
+}
+
+
+nav ul li a:hover {
+	background-color: #E24830; /*color hover principal*/
+	color: #fff;
+
+}
+
+nav ul li.selected a, nav ul li.selected a:hover {
+	background-image: url(img/green_cup.png);  /*Color link selected*/
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+article img {
+	width: 300px;
+	margin-top: 10px;
+}
+
+#body {
+
+	background-color: rgba(0, 0, 0, 0.5);
+ 	padding: 5px 20px;
+	margin: 10px 0; 
+	clear: both;
+	
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	border: 0px solid #000000;
+}
+
+#content {
+    float: left;
+}
+
+.two-column {
+	width: 68%;
+}
+
+.with-left-sidebar {
+	margin-left: 2%; 
+}
+
+.with-right-sidebar {
+	margin-right: 2%; 
+}
+
+.three-column {
+	width: 46%;
+	margin: 0 2%;
+}
+
+
+article {
+    padding: 10px 10px 20px 5px;
+ }
+
+article h2 {
+    padding-bottom: 0; 
+	font-family: 'Amaranth', sans-serif;
+}
+
+article .article-info {
+    color: #666;
+    font-size: 0.85em;
+    letter-spacing: -0.5px;
+    padding: 0 0 10px 0;
+}
+
+article .article-info a { 
+	color: #666;
+	border-bottom-color: #666;
+}
+
+.sidebar {
+	width: 250px;
+	padding: 10px 0 0;
+	float: right;
+}
+
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin-bottom: 20px;
+	line-height: 1.9em;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li ul li {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: none;
+	padding: 6px 2px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 13px;
+	border: none;
+}
+
+.sidebar li ul li a {
+	font-weight: normal;
+	color: #222;
+}
+
+.sidebar li ul li a:hover {
+	color: #3B7932;
+}
+
+.sidebar li ul.blocklist li {
+	padding: 0;
+	display: inline;
+}
+
+.sidebar li ul.blocklist li a {
+	background-color: #EAEAEA;
+	display: block;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 1px;
+	padding: 7px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.sidebar li ul.blocklist li a:hover {
+	background-color: #E24830;
+	color: #fff;
+}
+.clear {
+	clear: both;
+}
+
+
+footer  {
+	background-image: url(img/tweed.png);	
+	padding: 10px;
+	margin-top: 20px;
+	text-align: center;
+	
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+footer p {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+footer p, footer p a {
+	color: #fff;
+	border-bottom-color: #3B4C62;
+}
+
+#Gravatar {
+	background-image: url(img/Gravatar.jpg);
+	background-size: cover;
+	width: 150px;
+	height: 150px;
+}
+
+.gallery div  {
+   float: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 120px;
+   height: 120px; 
+
+   margin-bottom: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 0px solid #000000;
+}
+.gallery div:before{
+	float: left;
+	display:none;
+
+}
+.gallery div:hover {
+	z-index:2;
+	position:relative;
+}
+.gallery div:hover::before{
+	font-size: 0.9em;
+	text-shadow: 3px 4px 5px #000;
+	width:200px;
+	display:block;
+	text-align: center;
+	border:2px solid #B5B5B5;
+	opacity:0.8;
+	
+	margin-top: 175px;
+	margin-left: 40px;
+}
+#image1{background-image: url(vgimg/bfh/battlefield1.jpg);}
+#image2{background-image: url(vgimg/smsmash/superSmashBross1.jpg);}
+#image3{background-image: url(vgimg/kirby/kirby1.jpg);}
+#image4{background-image: url(vgimg/geoWar/geometry1.jpg);}
+#image5{background-image: url(vgimg/wwf/wwe1.jpg);}
+
+#image6{background-image: url(vgimg/fast/fast1.jpg);}
+#image7{background-image: url(vgimg/pillars/Pilla.jpg);}
+#image8{background-image: url(vgimg/ironcast/iron1.jpg);}
+#image9{background-image: url(vgimg/neverWinter/neverWinter1.png);}
+#image10{background-image: url(vgimg/deadalive/deadalive2.jpg);}
+

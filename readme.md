@@ -1,1 +1,1 @@
-# web usability - classes with teacher ciccone
+# project partners
